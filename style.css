@@ -1,0 +1,214 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: silver;
+}
+
+/*Parte Menu*/
+
+.menu {
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #000;
+	background-color: #000;
+}
+.menu ul li{
+	list-style-type: none;
+	width: 100px;
+	height: 50px;
+	/*border: 1px solid #000;*/
+	float: left;
+	margin-left: 50px;
+	margin-top: -3px;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	background-color: green;
+	padding: 10px;
+	color: #fff;
+	font-family: Noto Sans CJK SC Black;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	background-color: #000;
+	font-family: Noto Sans CJK SC Black;
+}
+
+/*Taka menu*/
+
+/*================================================================================================*/
+
+/*Parte Header*/
+	.header{
+		width: 100%;
+		height: 500px;
+		border: 5px solid #000;
+		background-image: url('img/unital3.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		opacity: 0.6;
+	}
+
+	.header img {
+		margin-top: 80px;
+		border-radius: 50%;
+		border:2px solid #000;
+	}
+	.header h1{
+			font-family: FreeMono;
+			font-size: 25px;
+			text-shadow: 2px 2px red;
+			font-weight: 300px;
+		}
+		hr {
+			width: 30%;
+			border: 2px solid #000;
+		}
+
+
+/*Taka header*/
+
+/*=================================================================================================*/
+
+/*Parte Profile*/
+	.profile{
+		width: 100%;
+		height:600px;
+		border : 1px solid #000;
+		
+	}
+	.profile h2 {
+			text-align: center;
+			text-transform: uppercase;
+			color: red;
+		}
+		.profile img {
+			border-radius: 50%;
+			margin-top: 30px;
+		}
+
+		.naran{
+			width: 50%;
+			height: 200px;
+			/*border: 2px solid #000;*/
+			margin-left: 40%;
+			margin-top: 30px;
+			color: red;
+		}
+
+/*Taka Profile*/
+/*========================================================================================================*/
+
+
+/*Parte Galery*/
+.galery {
+	width: 100%;
+	height: 600px;
+	border: 1px solid #000;
+	background-image: url('img/ict.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.galery h2 {
+			text-align: center;
+			text-transform: uppercase;
+			color: red;
+		}
+		table {
+			margin-left: 150px;
+		}
+		td {
+			text-transform: uppercase;
+			color: red;
+			font-weight: bold;
+			text-align: center;
+		}
+
+
+/*Taka Galery*/
+/*========================================================================================================*/
+
+/*Parte Kontaktu*/
+
+.kontaktu {
+	width: 100%;
+	height: 650px;
+	border: 1px solid #000;
+}
+.kontaktu h2 {
+			text-align: center;
+			text-transform: uppercase;
+			color: red;
+		}
+
+.kontaktu1{
+			width: 50%;
+			height: 470px;
+			/*border: 2px solid #000;*/
+			margin-left: 25%;
+			margin-top: 30px;
+			overflow-y: scroll;
+		}
+
+#input {
+	background: rgba(23, 20, 20, 0.52);
+	width: 80%;
+	height: 40px;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px;
+	font-size: 12px;
+	font-family: arial;
+	color: red;
+	border-radius: 20px;
+	border:1px solid #fff;
+}
+
+#men {
+	background: rgba(23, 20, 20, 0.52);
+	width: 80%;
+	height: 100px;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px;
+	font-size: 12pt;
+	font-family: arial;
+	color: red;
+	border-radius: 20px;
+	border:1px solid #fff;
+}
+
+#si {
+	background-color: red;
+	width: 20%;
+	height: 50px;
+	padding: 5px 5px 5px 10px;
+	margin-top: 20px;
+	font-size: 12pt;
+	font-family: arial;
+	color: #fff;
+	border-radius: 20px;
+}
+
+#si:hover {
+	background-color: silver;
+	cursor: pointer;
+}
+
+
+/*Taka Kontaktu*/
+/*==============================================================================*/
+
+/*Parte foother*/
+.footer {
+	width: 100%;
+	height: 60px;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+}
+
+
+/*Taka Footer*/
